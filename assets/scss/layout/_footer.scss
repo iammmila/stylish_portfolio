@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    width: 100%;
+    gap: 40px;
+
+    .links2 {
+        display: flex;
+        gap: 20px;
+
+        i {
+            padding: 27px 29px;
+            color: white;
+            background-color: #1d809f;
+            border-radius: 50%;
+            border: none;
+            font-size: 32px;
+        }
+
+    }
+
+    span {
+        font-size: 14px;
+        color: #6c757d;
+        font-family: $header-font-family;
+    }
+}

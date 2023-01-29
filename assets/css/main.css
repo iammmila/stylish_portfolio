@@ -1,0 +1,838 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class*=col-] {
+  float: left;
+}
+
+[class*=col-]::after {
+  clear: both;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .col-lg-1 {
+    width: 8.3333333333%;
+  }
+  .col-lg-2 {
+    width: 16.6666666667%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.3333333333%;
+  }
+  .col-lg-5 {
+    width: 41.6666666667%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.3333333333%;
+  }
+  .col-lg-8 {
+    width: 66.6666666667%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.3333333333%;
+  }
+  .col-lg-11 {
+    width: 91.6666666667%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 95%;
+  }
+  .col-md-1 {
+    width: 8.3333333333%;
+  }
+  .col-md-2 {
+    width: 16.6666666667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .col-md-5 {
+    width: 41.6666666667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.3333333333%;
+  }
+  .col-md-8 {
+    width: 66.6666666667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.3333333333%;
+  }
+  .col-md-11 {
+    width: 91.6666666667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .col-s-1 {
+    width: 8.3333333333%;
+  }
+  .col-s-2 {
+    width: 16.6666666667%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.3333333333%;
+  }
+  .col-s-5 {
+    width: 41.6666666667%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.3333333333%;
+  }
+  .col-s-8 {
+    width: 66.6666666667%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.3333333333%;
+  }
+  .col-s-11 {
+    width: 91.6666666667%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .col-xs-1 {
+    width: 8.3333333333%;
+  }
+  .col-xs-2 {
+    width: 16.6666666667%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.3333333333%;
+  }
+  .col-xs-5 {
+    width: 41.6666666667%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.3333333333%;
+  }
+  .col-xs-8 {
+    width: 66.6666666667%;
+  }
+  .col-xs-9 {
+    width: 75%;
+  }
+  .col-xs-10 {
+    width: 83.3333333333%;
+  }
+  .col-xs-11 {
+    width: 91.6666666667%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+header {
+  z-index: 48593475;
+  background-color: #212529;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+header .header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+header .header-logo {
+  width: 187px;
+  height: 33px;
+}
+header .header button {
+  background-color: #212529;
+  padding: 12px 12px;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  display: none;
+}
+header .header-links ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+header .header-links ul li {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    width: 100%;
+  }
+  header .header {
+    padding: 0 30px;
+  }
+  header .header button {
+    display: block;
+  }
+  header .header-links {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  header {
+    width: 100%;
+  }
+  header .header {
+    padding: 0 30px;
+  }
+  header .header button {
+    display: block;
+  }
+  header .header-links {
+    display: none;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  width: 100%;
+  gap: 40px;
+}
+footer .links2 {
+  display: flex;
+  gap: 20px;
+}
+footer .links2 i {
+  padding: 27px 29px;
+  color: white;
+  background-color: #1d809f;
+  border-radius: 50%;
+  border: none;
+  font-size: 32px;
+}
+footer span {
+  font-size: 14px;
+  color: #6c757d;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  color: #fff;
+  background-color: #1D809F;
+  border: none;
+  border-radius: 3px;
+  padding: 20px 28px;
+}
+
+main #hero-section {
+  background-image: url("	https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #hero-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #hero-section .container h1 {
+  font-size: 88px;
+  font-family: "Montserrat", sans-serif;
+}
+main #hero-section .container h3 {
+  font-size: 28px;
+  margin-bottom: 48px;
+  font-family: "Montserrat", sans-serif;
+}
+main #part2 {
+  width: 100%;
+  height: 80vh;
+  padding: 120px 0;
+  background-color: white;
+}
+main #part2 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+main #part2 .container .text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+main #part2 .container .text2 p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+}
+main #part2 .container .text2 span {
+  font-size: 20px;
+  font-weight: 300;
+  color: #212529;
+  font-family: "Montserrat", sans-serif;
+}
+main #part2 .container .btn {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  background-color: black !important;
+  font-size: 18px;
+}
+main #part3 {
+  width: 100%;
+  background-color: #1d809f;
+  padding: 120px 0;
+}
+main #part3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main #part3 .container .text3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main #part3 .container .text3 h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ecb733;
+  font-family: "Montserrat", sans-serif;
+}
+main #part3 .container .text3 p {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+}
+main #part3 .container .wrapper .col-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+main #part3 .container .wrapper .col-3 i {
+  padding: 40px;
+  background-color: white;
+  color: #1d809f;
+  border-radius: 50%;
+  font-size: 30px;
+}
+main #part3 .container .wrapper .col-3 span {
+  font-size: 24px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+}
+main #part3 .container .wrapper .col-3 p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Montserrat", sans-serif;
+}
+main #part4 {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+main #part4 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main #part4 .container h1 {
+  text-align: center;
+  width: 563px;
+  font-size: 56px;
+  font-family: "Montserrat", sans-serif;
+}
+main #part5 {
+  padding: 120px 0;
+  width: 100%;
+}
+main #part5 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main #part5 .container .text4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #part5 .container .text4 span {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #f9e89e;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+}
+main #part5 .container .text4 p {
+  font-size: 48px;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+}
+main #part5 .container .card-wrappers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main #part5 .container .card-wrappers .col-6 {
+  position: relative;
+}
+main #part5 .container .card-wrappers .col-6 img {
+  max-width: 100%;
+  height: auto;
+}
+main #part5 .container .card-wrappers .col-6 .text5 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main #part5 .container .card-wrappers .col-6 .text5 span {
+  font-size: 12.8px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+main #part5 .container .card-wrappers .col-6 .text5 p {
+  font-size: 19.2px;
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+main #part6 {
+  background-color: #1d809f;
+  width: 100%;
+  padding: 120px 0;
+  opacity: 0.9;
+}
+main #part6 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+main #part6 .container p {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+}
+main #part6 .container div {
+  display: flex;
+  gap: 20px;
+}
+main #part6 .container div .btn:nth-child(1) {
+  background-color: white;
+  color: black;
+}
+main #part6 .container div .btn:nth-child(2) {
+  background-color: black;
+  color: white;
+}
+main #map {
+  width: 100%;
+  height: 480px;
+}
+main #map iframe {
+  width: 100%;
+  height: 100%;
+}
+main #our-team {
+  padding: 96px 0;
+  background-color: #f8f9fa;
+  width: 100%;
+}
+main #our-team .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main #our-team .container .text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main #our-team .container .text-center h2 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+main #our-team .container .text-center span {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: #6c757d;
+  font-style: italic;
+}
+main #our-team .container .text {
+  text-align: center;
+}
+main #our-team .container .row .col-4 .team-member {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+main #our-team .container .row .col-4 .team-member img {
+  width: 300px;
+  height: 300px;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+main #our-team .container .row .col-4 .team-member h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+}
+main #our-team .container .row .col-4 .team-member span {
+  color: #6c757d;
+  font-size: 23px;
+  font-family: "Montserrat", sans-serif;
+}
+main #our-team .container .row .col-4 .team-member ul {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+main #our-team .container .row .col-4 .team-member ul li {
+  padding: 13px 18px;
+  background-color: #212529;
+  border-radius: 50%;
+}
+main #our-team .container .row .col-4 .team-member ul li i {
+  color: white;
+}
+
+@media only screen and (max-width: 576px) {
+  main #hero-section {
+    min-height: 480px;
+    height: 0;
+    margin-top: 68px;
+  }
+  main #hero-section .container {
+    padding: 0 90px;
+  }
+  main #hero-section .container h1 {
+    font-size: 64px !important;
+    font-family: "Montserrat", sans-serif;
+  }
+  main #hero-section .container h3 {
+    font-size: 25px;
+    margin-bottom: 48px;
+  }
+  main #part2 {
+    padding: 50px 0;
+  }
+  main #part2 .container {
+    padding: 50px;
+  }
+  main #part3 .wrapper {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main #part4 .container h1 {
+    text-align: center;
+    width: 317px;
+    font-size: 56px;
+    font-family: "Montserrat", sans-serif;
+  }
+  main #part5 .container .text4 {
+    padding: 0 20px;
+  }
+  main #part5 .container .text4 p {
+    text-align: center;
+  }
+  main #part5 .container .card-wrappers {
+    gap: 10px;
+  }
+  main #part5 .container .card-wrappers .col-6 .text5 {
+    width: 75%;
+  }
+  main #part6 .container {
+    padding: 0 30px;
+    text-align: center;
+  }
+  main #part6 .container p {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+  }
+  main #part6 .container div {
+    gap: 0px;
+    align-items: center;
+    flex-direction: column;
+  }
+  main #part6 .container div .btn:nth-child(1) {
+    background-color: white;
+    color: black;
+  }
+  main #part6 .container div .btn:nth-child(2) {
+    background-color: black;
+    color: white;
+  }
+}
+@media only screen and (max-width: 992px) {
+  main #hero-section {
+    min-height: 480px;
+    height: 0;
+  }
+  main #hero-section h1 {
+    font-size: 64px !important;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  main #hero-section h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 48px;
+  }
+  main #part2 .container {
+    padding: 50px;
+    gap: 30px;
+  }
+  main #part2 .container .text2 {
+    text-align: center;
+  }
+  main #part2 .container .text2 p {
+    font-size: 25px;
+  }
+  main #part2 .container .text2 span {
+    font-size: 15px;
+  }
+  main #part3 .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main #part3 .col-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+  main #part3 .col-3 i {
+    padding: 40px;
+    background-color: white;
+    color: #1d809f;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+  main #part3 .col-3 span {
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+  }
+  main #part3 .col-3 p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Montserrat", sans-serif;
+  }
+  main #part5 .container .text4 {
+    padding: 0 20px;
+  }
+  main #part5 .container .text4 p {
+    text-align: center;
+  }
+  main #part5 .container .card-wrappers {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  main #part5 .container .card-wrappers .col-md-12 {
+    width: auto;
+    padding: 0 10px;
+  }
+  main #part5 .container .card-wrappers .col-md-12 .text5 {
+    width: 75%;
+  }
+}/*# sourceMappingURL=main.css.map */

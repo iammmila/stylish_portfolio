@@ -1,0 +1,602 @@
+main {
+
+    #hero-section {
+        background-image: url("	https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                font-size: 88px;
+                font-family: $header-font-family;
+            }
+
+            h3 {
+                font-size: 28px;
+                margin-bottom: 48px;
+                font-family: $header-font-family;
+            }
+        }
+    }
+
+    #part2 {
+        width: 100%;
+        height: 80vh;
+        padding: 120px 0;
+        background-color: white;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+            .text2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+
+                p {
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    font-family: $header-font-family;
+                }
+
+                span {
+                    font-size: 20px;
+                    font-weight: 300;
+                    color: #212529;
+                    font-family: $header-font-family;
+                }
+            }
+
+            .btn {
+                font-weight: 400;
+                line-height: 1.5;
+                text-align: center;
+                background-color: black !important;
+                font-size: 18px;
+            }
+        }
+    }
+
+    #part3 {
+        width: 100%;
+        background-color: #1d809f;
+        padding: 120px 0;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .text3 {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h3 {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: #ecb733;
+                    font-family: $header-font-family;
+                }
+
+                p {
+                    color: white;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    font-family: $header-font-family;
+                }
+            }
+
+            .wrapper {
+                .col-3 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    text-align: center;
+
+                    i {
+                        padding: 40px;
+                        background-color: white;
+                        color: #1d809f;
+                        border-radius: 50%;
+                        font-size: 30px;
+                    }
+
+                    span {
+                        font-size: 24px;
+                        color: white;
+                        font-weight: bolder;
+                        font-family: $header-font-family;
+                    }
+
+                    p {
+                        color: rgba(255, 255, 255, 0.7);
+                        font-family: $header-font-family;
+                    }
+                }
+            }
+        }
+    }
+
+    #part4 {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            h1 {
+                text-align: center;
+                width: 563px;
+                font-size: 56px;
+                font-family: $header-font-family;
+            }
+        }
+    }
+
+    #part5 {
+        padding: 120px 0;
+        width: 100%;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .text4 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: #f9e89e;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    font-family: $header-font-family;
+                }
+
+                p {
+                    font-size: 48px;
+                    text-transform: capitalize;
+                    color: black;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    font-family: $header-font-family;
+                }
+            }
+
+            .card-wrappers {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+
+                .col-6 {
+                    position: relative;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+
+                    .text5 {
+                        position: absolute;
+                        top: 50%;
+                        left: 10%;
+                        width: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+
+                        span {
+                            font-size: 12.8px;
+                            font-weight: 700;
+                            line-height: 1.2;
+                            font-family: $header-font-family;
+                            color: white;
+                        }
+
+                        p {
+                            font-size: 19.2px;
+                            font-weight: 300;
+                            line-height: 1.6;
+                            font-family: $header-font-family;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #part6 {
+        background-color: #1d809f;
+        width: 100%;
+        padding: 120px 0;
+        opacity: 0.9;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            p {
+                font-size: 20px;
+                color: white;
+                font-weight: 700;
+                line-height: 1.2;
+                font-family: $header-font-family;
+            }
+
+            div {
+                display: flex;
+                gap: 20px;
+
+                .btn:nth-child(1) {
+                    background-color: white;
+                    color: black;
+                }
+
+                .btn:nth-child(2) {
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    #map {
+        width: 100%;
+        height: 480px;
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    #our-team {
+        padding: 96px 0;
+        background-color: $team-bgcolor;
+        width: 100%;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .text-center {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+
+                h2 {
+                    font-size: $team-h2-size;
+                    font-family: $header-font-family;
+                    text-align: center;
+                }
+
+                span {
+                    font-size: $normal-font-size;
+                    font-family: $header-font-family;
+                    text-align: center;
+                    font-weight: 400;
+                    color: $normal-font-color;
+                    font-style: italic;
+                }
+            }
+
+            .text {
+                text-align: center;
+            }
+
+            .row {
+                .col-4 {
+                    .team-member {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 14px;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            width: 300px;
+                            height: 300px;
+                            border: 0.5rem solid rgba(0, 0, 0, 0.1);
+                            border-radius: 50%;
+                        }
+
+                        h4 {
+                            font-size: 32px;
+                            font-weight: 700;
+                            line-height: 1.2;
+                            font-family: $header-font-family;
+                        }
+
+                        span {
+                            color: $normal-font-color;
+                            font-size: 23px;
+                            font-family: $header-font-family;
+
+                        }
+
+                        ul {
+                            width: 50%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            align-items: center;
+
+                            li {
+                                padding: 13px 18px;
+                                background-color: $links-bgcolor;
+                                border-radius: 50%;
+
+                                i {
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:576px) {
+    main {
+        #hero-section {
+            min-height: 480px;
+            height: 0;
+            margin-top: 68px;
+
+            .container {
+                padding: 0 90px;
+
+                h1 {
+                    font-size: 64px !important;
+                    font-family: $header-font-family;
+                }
+
+                h3 {
+                    font-size: 25px;
+                    margin-bottom: 48px;
+                }
+            }
+
+        }
+
+        #part2 {
+            padding: 50px 0;
+
+            .container {
+                padding: 50px;
+            }
+        }
+
+        #part3 {
+            .wrapper {
+                gap: 30px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+
+        #part4 {
+            .container h1 {
+                text-align: center;
+                width: 317px;
+                font-size: 56px;
+                font-family: $header-font-family;
+            }
+        }
+
+        #part5 {
+            .container {
+                .text4 {
+                    padding: 0 20px;
+
+                    p {
+                        text-align: center;
+                    }
+                }
+
+                .card-wrappers {
+
+                    gap: 10px;
+
+                    .col-6 {
+                        .text5 {
+                            width: 75%;
+                        }
+                    }
+                }
+            }
+        }
+
+        #part6 {
+            .container {
+                padding: 0 30px;
+                text-align: center;
+
+                p {
+                    font-size: 20px;
+                    color: white;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    font-family: $header-font-family;
+                }
+
+                div {
+                    gap: 0px;
+                    align-items: center;
+                    flex-direction: column;
+
+                    .btn:nth-child(1) {
+                        background-color: white;
+                        color: black;
+                    }
+
+                    .btn:nth-child(2) {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:992px) {
+    main {
+        #hero-section {
+            min-height: 480px;
+            height: 0;
+
+            h1 {
+                font-size: 64px !important;
+                font-family: $header-font-family;
+                text-align: center;
+            }
+
+            h3 {
+                text-align: center;
+                font-size: 30px;
+                margin-bottom: 48px;
+            }
+        }
+
+        #part2 {
+            .container {
+                padding: 50px;
+                gap: 30px;
+
+                .text2 {
+                    text-align: center;
+
+                    p {
+                        font-size: 25px;
+                    }
+
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        #part3 {
+            .wrapper {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+
+            .col-3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                text-align: center;
+
+
+                i {
+                    padding: 40px;
+                    background-color: white;
+                    color: #1d809f;
+                    border-radius: 50%;
+                    font-size: 30px;
+                }
+
+                span {
+                    font-size: 24px;
+                    color: white;
+                    font-weight: bolder;
+                    font-family: $header-font-family;
+                }
+
+                p {
+                    color: rgba(255, 255, 255, 0.7);
+                    font-family: $header-font-family;
+                }
+            }
+
+        }
+
+        #part5 {
+            .container {
+                // padding: 0 10px;
+
+                .text4 {
+                    padding: 0 20px;
+
+                    p {
+                        text-align: center;
+                    }
+                }
+
+                .card-wrappers {
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    gap: 10px;
+
+                    .col-md-12 {
+                        width: auto;
+                        padding: 0 10px;
+
+                        .text5 {
+                            width: 75%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
